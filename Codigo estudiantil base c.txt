@@ -3,13 +3,13 @@
 
 int main()
 {
-    int n, x= 0;
+    int codigo, x= 0;
     printf("Ingrese su código estudiantil:");
-    scanf ("%d",&n);
+    scanf ("%d",&codigo);
     
-    while(n > 0){
-	x = x + n % 10;
-	n = n/10;
+    while(codigo > 0){
+	x = x + codigo % 10;
+	codigo = codigo/10;
 	}
 
 
