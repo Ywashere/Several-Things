@@ -1,0 +1,10 @@
+Inicio
+1. Definimos las variables, la variable código y x=0.
+2. Ingresamos el código estudiantil de una persona.
+3. Mientras el código >0
+   x = x+ codigo*10%  ->Lleva la suma del último dígito del código
+   codigo = codigo/10 ->Divide el código entre 10 para quitar el último dígito del código y volver a sumar 
+4. Finalmentela suma de los dígitos de su código es "x"
+Fin 
+
+
