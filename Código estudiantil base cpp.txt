@@ -1,0 +1,24 @@
+
+// Programa para la suma de los dígitos del código estudiantil
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+	int n, x=0;
+	
+
+	cout<<"Ingrese su código estudiantil:";	
+	cin>>n; 
+	
+	while(n > 0){
+	x = x + n %10;
+	n = n/10;
+	}
+	
+	cout<<"La suma de los dígitos de su código es:"<<x<<endl;
+	
+	return 0;
+}
